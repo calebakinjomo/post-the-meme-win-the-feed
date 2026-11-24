@@ -1,4 +1,5 @@
 import { copyFileSync, mkdirSync } from "node:fs";
+// Ship the meme post to the feed: copy POST.json into the make.fun output folder.
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
